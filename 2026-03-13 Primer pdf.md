@@ -45,10 +45,10 @@ graph LR
 Las señales de información (como la voz, de baja frecuencia) no son eficientes para viajar largas distancias por sí mismas. Aquí es donde entra la modulación.
 
 - **Definición:** Es el proceso de modificar una o más propiedades de una señal de alta frecuencia, llamada **señal portadora** (generalmente una onda senoidal), en proporción a la **señal moduladora** (la información que queremos enviar).
-- **Señal Portadora:** Una onda de alta frecuencia, generalmente senoidal, que actúa como un "vehículo" para transportar la información. Se define por: **v(t) = V<sub>c</sub> sen (2πf<sub>c</sub>t + θ)** , donde:
-    - `V<sub>c</sub>`: Amplitud
-    - `f<sub>c</sub>`: Frecuencia
-    - `θ`: Fase
+- **Señal Portadora:** Una onda de alta frecuencia, generalmente senoidal, que actúa como un "vehículo" para transportar la información. Se define por: **v(t) = V<sub>c</sub> sen (2πf<sub>c</sub>t + θ)**, donde:
+    - V<sub>c</sub>: `Amplitud
+    - f<sub>c</sub>: `Frecuencia
+    - `θ`: `Fase
 - **Modulador:** Circuito en el transmisor que realiza la modulación. Su salida es la **onda modulada**.
 - **Demodulación:** El proceso inverso a la modulación. Se realiza en el receptor mediante un **demodulador** para recuperar la señal de información original a partir de la onda modulada recibida.
 
@@ -103,5 +103,3 @@ En las modulaciones digitales, la señal de información es un flujo de bits (0s
 - **Ancho de Banda (Canal):** Es el rango de frecuencias asignado a una transmisión específica. Es un recurso limitado y preciado.
     - *Ejemplo:* Canal de voz telefónica ≈ 3 kHz, Canal de radio AM comercial = 10 kHz, Canal de radio FM comercial = 200 kHz.
 - **Espectro Electromagnético:** Es el rango completo de todas las frecuencias posibles de radiación electromagnética. Los sistemas de comunicaciones utilizan diferentes porciones de este espectro (radio, microondas, infrarrojo, luz visible) según sus necesidades y características de propagación.
-
-Este resumen cubre los principios fundamentales. A partir de esta base, podrás profundizar en los análisis matemáticos de cada tipo de modulación, los cálculos de potencia y ancho de banda, y el estudio del ruido en los sistemas de comunicación. ¡Mucho éxito en tu examen!
